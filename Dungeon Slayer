@@ -2,13 +2,13 @@
 
     -- Load UI Lib & theme
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/UI%20Lib"))()
-    local lib = library.new("Inoria B")
+    local lib = library.new("Asura S")
 
     -- themes
     local themes = {
     Background = Color3.fromRGB(34, 34, 34),
-    Glow = Color3.fromRGB(178, 164, 255),
-    Accent = Color3.fromRGB(185, 115, 255),
+    Glow = Color3.fromRGB(91, 0, 0),
+    Accent = Color3.fromRGB(91, 0, 0),
     LightContrast = Color3.fromRGB(20, 20, 20),
     DarkContrast = Color3.fromRGB(24, 24, 24),  
     TextColor = Color3.fromRGB(255, 255, 255)
