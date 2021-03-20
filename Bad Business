@@ -1,6 +1,6 @@
 
     -- init
-local library = loadstring(game:HttpGet("https://virtuallization.com/InoriaB/UiLib.txt"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AsuraShadow/Robl1/main/UI%20Lib?token=ATKDU62JDEHJZ46LGJYKB23AKXOHE"))()
     local lib = library.new("Inoria B")
 
     -- themes
@@ -129,7 +129,7 @@ local library = loadstring(game:HttpGet("https://virtuallization.com/InoriaB/UiL
         if type(v) == "table" then
             if rawget(v, "Version") and rawget(v, "Kitty") then
                 local mt = getrawmetatable(v);
-                modules = select(2, pcall(getupvalue, mt.__index, 1)); --gets the ts module (haha totally not stolen from kiriot :p)
+                modules = select(2, pcall(getupvalue, mt.__index, 1)); --gets the ts module 
             elseif rawget(v, "Control") and type(rawget(v, "Control")) == "function" then
                 controlfunc = rawget(v, "Control"); --control function used for walkspeed mult
             end
@@ -255,7 +255,7 @@ local library = loadstring(game:HttpGet("https://virtuallization.com/InoriaB/UiL
     local colors = theme:addSection("Colors")
     local settings = theme:addSection("Settings")
 
-    for theme, color in pairs(themes) do -- all in one theme changer, i know, im cool
+    for theme, color in pairs(themes) do -- all in one theme changer
     colors:addColorPicker(theme, color, function(color3)
     lib:setTheme(theme, color3)
     end)
