@@ -188,19 +188,19 @@ function loader:detectGame()
 	end
 end
 	-- games
-loader:registerGame(73885730, "Prison Life", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/Prison%20Life?token=ATKDU632EY53X7PVJUD3TPTAKXOOQ")
-loader:registerGame(1168263273, "Bad Business", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/Bad%20Business?token=ATKDU6YIDCV5NLN4ILQP5MTAKXOWC")
-loader:registerGame(81762198, "Vehicle Simulator", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/Vehicle%20Simulator?token=ATKDU6YDIDWUGWCGNGGEEYDAKXO4C")
-loader:registerGame(1247975681, "Big Paintball", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/Big%20Paintball?token=ATKDU62Y5RWH5WLM25YQ4IDAKXO7Y")
+loader:registerGame(73885730, "Prison Life", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/Prison%20Life")
+loader:registerGame(1168263273, "Bad Business", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/Bad%20Business")
+loader:registerGame(81762198, "Vehicle Simulator", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/Vehicle%20Simulator")
+loader:registerGame(1247975681, "Big Paintball", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/Big%20Paintball")
 --e
-loader:registerGame(648454481, "Grand Piece Online", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/GPO?token=ATKDU6YRMO2232B4O3EQYCDAKXPFE")
-loader:registerGame(1451439645, "King Piece", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/King%20Piece?token=ATKDU675GHJ6OE66XXHVEKLAKXPJO")
-loader:registerGame(1511883870, "Shindo Life", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/Shindo?token=ATKDU62OX4UG6PS2ZVNZY4TAKXPM4")
-loader:registerGame(1298329910, "Dungeon Slayer", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/Dungeon%20Slayer?token=ATKDU63OFGNCCIKTTNHWKSDAKXPTK")
-loader:registerGame(703124385, "Tower of hell", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/Tower%20Of%20Hell?token=ATKDU62RLJEJKAFONBIV5CDAKXPWS")
-loader:registerGame(1077961373, "Giant Simulator", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/Giant%20Simulator?token=ATKDU6774OMUTLOFXJK6GLLAKXP2W")
-loader:registerGame(210213771, "Final Stand", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/Dragon%20Ball%20Z%3A%20Final%20Stand?token=ATKDU64CUMG4UFQC6W3RKBLAKXP5W")
-loader:registerGame(2265532481, "Project XL", "https://raw.githubusercontent.com/AsuraShadow/Robl1/main/Project%20XL?token=ATKDU6YYRY3LEIIEPOOCLSTAKXQCE")
+loader:registerGame(648454481, "Grand Piece Online", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/GPO")
+loader:registerGame(1451439645, "King Piece", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/King%20Piece")
+loader:registerGame(1511883870, "Shindo Life", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/Shindo")
+loader:registerGame(1298329910, "Dungeon Slayer", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/Dungeon%20Slayer")
+loader:registerGame(703124385, "Tower of hell", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/Tower%20Of%20Hell")
+loader:registerGame(1077961373, "Giant Simulator", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/Giant%20Simulator")
+loader:registerGame(210213771, "Final Stand", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/Dragon%20Ball%20Z%3A%20Final%20Stand")
+loader:registerGame(2265532481, "Project XL", "https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/Project%20XL")
 
 	-- end
 loader:show()
