@@ -23,7 +23,7 @@
 
 
     -- init
-local library = loadstring(game:HttpGet("https://virtuallization.com/InoriaB/UiLib.txt"))()
+local library = loadstring(game:HttpGet("https://github.com/AsuraShadow/Robl1/blob/main/UI%20Lib"))()
     local lib = library.new("InoriaB")
     local Slow
     local EGod
@@ -2128,7 +2128,7 @@ local library = loadstring(game:HttpGet("https://virtuallization.com/InoriaB/UiL
         }
     }
 
-    loadstring(game:HttpGet("https://demonslayer0002.xyz/InoriaB/NIGGANUTS9000/ALLAHISMYDAD/ingame/esplib.lua.php"))()
+    loadstring(game:HttpGet("https://github.com/AsuraShadow/Robl1/blob/main/ESP%20Library"))()
 
     ESPS:addToggle("Enable ESP", nil, function(bool)
         shared.Visuals.Enabled = bool
