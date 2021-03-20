@@ -1,5 +1,5 @@
     -- init
-local library = loadstring(game:HttpGet("https://virtuallization.com/InoriaB/UiLib.txt"))()
+local library = loadstring(game:HttpGet("https://github.com/AsuraShadow/Robl1/blob/main/UI%20Lib"))()
     local lib = library.new("InoriaB")
     local noclip
 
@@ -224,7 +224,7 @@ if Drawing then
 local ESP = lib:addPage("ESP", 5012544693)
     local ESPS = ESP:addSection("ESP")
 
-local ESP = loadstring(game:HttpGet("https://virtuallization.com/ESP%20Library.txt"))() --so much better than your shitty esp lol
+local ESP = loadstring(game:HttpGet("https://github.com/AsuraShadow/Robl1/blob/main/ESP%20Library"))() --so much better than your shitty esp lol
 ESP.Names = false
 ESP.Boxes = false
 ESP.Tracers = false
