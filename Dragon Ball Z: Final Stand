@@ -1,7 +1,7 @@
 
 
     repeat wait() until game:IsLoaded()
-    local Name = "InoriaBConfig.json"
+    local Name = "AsuraSConfig.json"
 
     local DefaultSettings = {
     TeleSpeed = "Q",
@@ -493,10 +493,10 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
     local Move = Auto:addSection("Moves")
 
     AutoFarm:addButton("Recommended Farm", function()
-        game:GetService("CoreGui").InoriaB.Main.AutoFarm.AutoFarm.Container.NPC1.Button.Textbox.Text = "Saiba";
-        game:GetService("CoreGui").InoriaB.Main.AutoFarm.AutoFarm.Container.NPC2.Button.Textbox.Text = "Saiyan";
-        game:GetService("CoreGui").InoriaB.Main.AutoFarm.AutoFarm.Container.NPC3.Button.Textbox.Text = "Chi";
-        game:GetService("CoreGui").InoriaB.Main.AutoFarm.AutoFarm.Container.NPC4.Button.Textbox.Text = "Boxer";
+        game:GetService("CoreGui").AsuraS.Main.AutoFarm.AutoFarm.Container.NPC1.Button.Textbox.Text = "Saiba";
+        game:GetService("CoreGui").AsuraS.Main.AutoFarm.AutoFarm.Container.NPC2.Button.Textbox.Text = "Saiyan";
+        game:GetService("CoreGui").AsuraS.Main.AutoFarm.AutoFarm.Container.NPC3.Button.Textbox.Text = "Chi";
+        game:GetService("CoreGui").AsuraS.Main.AutoFarm.AutoFarm.Container.NPC4.Button.Textbox.Text = "Boxer";
     end)
 
     AutoFarm:addTextbox("NPC1", "Saiba", function(value)
@@ -511,10 +511,10 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
     AutoFarm:addTextbox("NPC4", "Boxer", function(value)
     end)    
 
-    game.CoreGui.InoriaB.Main.AutoFarm.AutoFarm.Container.Textbox.Name = "NPC1"
-    game.CoreGui.InoriaB.Main.AutoFarm.AutoFarm.Container.Textbox.Name = "NPC2"
-    game.CoreGui.InoriaB.Main.AutoFarm.AutoFarm.Container.Textbox.Name = "NPC3"
-    game.CoreGui.InoriaB.Main.AutoFarm.AutoFarm.Container.Textbox.Name = "NPC4"
+    game.CoreGui.AsuraS.Main.AutoFarm.AutoFarm.Container.Textbox.Name = "NPC1"
+    game.CoreGui.AsuraS.Main.AutoFarm.AutoFarm.Container.Textbox.Name = "NPC2"
+    game.CoreGui.AsuraS.Main.AutoFarm.AutoFarm.Container.Textbox.Name = "NPC3"
+    game.CoreGui.AsuraS.Main.AutoFarm.AutoFarm.Container.Textbox.Name = "NPC4"
 
 
     Settingsa:addToggle("Auto Attack", nil, function(AutoAttack)
@@ -554,10 +554,10 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
     Settingsa:addToggle("Start Auto Farm", nil, function(NPCFARM)
         if NPCFARM then
             AutoFarm = true
-            local NPCS = {game:GetService("CoreGui").InoriaB.Main.AutoFarm.AutoFarm.Container.NPC1.Button.Textbox.Text,
-                            game:GetService("CoreGui").InoriaB.Main.AutoFarm.AutoFarm.Container.NPC2.Button.Textbox.Text,
-                            game:GetService("CoreGui").InoriaB.Main.AutoFarm.AutoFarm.Container.NPC3.Button.Textbox.Text,
-                            game:GetService("CoreGui").InoriaB.Main.AutoFarm.AutoFarm.Container.NPC4.Button.Textbox.Text}
+            local NPCS = {game:GetService("CoreGui").AsuraS.Main.AutoFarm.AutoFarm.Container.NPC1.Button.Textbox.Text,
+                            game:GetService("CoreGui").AsuraS.Main.AutoFarm.AutoFarm.Container.NPC2.Button.Textbox.Text,
+                            game:GetService("CoreGui").AsuraS.Main.AutoFarm.AutoFarm.Container.NPC3.Button.Textbox.Text,
+                            game:GetService("CoreGui").AsuraS.Main.AutoFarm.AutoFarm.Container.NPC4.Button.Textbox.Text}
             local NPCNUMBER = 1
             while AutoFarm == true and wait() do 
                 for i,v in pairs(Live:GetChildren()) do
@@ -815,22 +815,22 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
         local Target = FindPlayer(PlayerName)
         if Target and Target.Character then
             local plr = Target
-            game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[1].Title.Text = " Name: " .. plr.Name .. ""
-            game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[2].Title.Text = " Race: " .. game:GetService("Workspace").Live[plr.Name].Race.Value .. ""
-            game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[3].Title.Text= " Health Max: " .. game:GetService("Workspace").Live[plr.Name].Stats["Health-Max"].Value .. ""
-            game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[4].Title.Text= " Ki Max: " .. game:GetService("Workspace").Live[plr.Name].Stats["Ki-Max"].Value .. ""
-            game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[5].Title.Text= " Melee Damage: " .. game:GetService("Workspace").Live[plr.Name].Stats["Phys-Damage"].Value .. ""
-            game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[6].Title.Text= " Ki Damage: " .. game:GetService("Workspace").Live[plr.Name].Stats["Ki-Damage"].Value .. ""
-            game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[7].Title.Text= " Melee Resistance: " .. game:GetService("Workspace").Live[plr.Name].Stats["Phys-Resist"].Value .. ""
-            game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[8].Title.Text= " Ki Resistance: " .. game:GetService("Workspace").Live[plr.Name].Stats["Ki-Resist"].Value .. ""
-            game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[9].Title.Text= " Speed: " .. game:GetService("Workspace").Live[plr.Name].Stats["Speed"].Value .. ""
-            game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[10].Title.Text = " Prestige: " .. game:GetService("Workspace").Live[plr.Name].Prestige.Value .. ""
+            game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[1].Title.Text = " Name: " .. plr.Name .. ""
+            game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[2].Title.Text = " Race: " .. game:GetService("Workspace").Live[plr.Name].Race.Value .. ""
+            game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[3].Title.Text= " Health Max: " .. game:GetService("Workspace").Live[plr.Name].Stats["Health-Max"].Value .. ""
+            game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[4].Title.Text= " Ki Max: " .. game:GetService("Workspace").Live[plr.Name].Stats["Ki-Max"].Value .. ""
+            game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[5].Title.Text= " Melee Damage: " .. game:GetService("Workspace").Live[plr.Name].Stats["Phys-Damage"].Value .. ""
+            game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[6].Title.Text= " Ki Damage: " .. game:GetService("Workspace").Live[plr.Name].Stats["Ki-Damage"].Value .. ""
+            game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[7].Title.Text= " Melee Resistance: " .. game:GetService("Workspace").Live[plr.Name].Stats["Phys-Resist"].Value .. ""
+            game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[8].Title.Text= " Ki Resistance: " .. game:GetService("Workspace").Live[plr.Name].Stats["Ki-Resist"].Value .. ""
+            game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[9].Title.Text= " Speed: " .. game:GetService("Workspace").Live[plr.Name].Stats["Speed"].Value .. ""
+            game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[10].Title.Text = " Prestige: " .. game:GetService("Workspace").Live[plr.Name].Prestige.Value .. ""
             if game:GetService("Workspace").Live[plr.Name]:FindFirstChild("RebirthWings") then
-                game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[11].Title.Text = " Extra: Rebirthed Slot"
+                game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[11].Title.Text = " Extra: Rebirthed Slot"
             elseif game:GetService("Workspace").Live[plr.Name]:FindFirstChild("RealHalo") then
-                game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[11].Title.Text = " Extra: Heaven Slot"
+                game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[11].Title.Text = " Extra: Heaven Slot"
             else
-                game.CoreGui.InoriaB.Main.StatChecker.StatChecker.Container[11].Title.Text = " Extra: Pure Slot"
+                game.CoreGui.AsuraS.Main.StatChecker.StatChecker.Container[11].Title.Text = " Extra: Pure Slot"
             end
         end
     end)
@@ -850,7 +850,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
 
         
     for count = 1,11 do
-        game:GetService("CoreGui").InoriaB.Main.StatChecker.StatChecker.Container.Button.Name = count
+        game:GetService("CoreGui").AsuraS.Main.StatChecker.StatChecker.Container.Button.Name = count
     end
 
 
@@ -2179,7 +2179,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
 
     settings:addButton("Destroy UI", function()
         if game.CoreGui:FindFirstChild("Asura S") then
-            game:GetService("CoreGui").InoriaB:Destroy();
+            game:GetService("CoreGui").AsuraS:Destroy();
             game.Workspace.part0000000:Destroy();
             game.Workspace.part00000002:Destroy();
         end
