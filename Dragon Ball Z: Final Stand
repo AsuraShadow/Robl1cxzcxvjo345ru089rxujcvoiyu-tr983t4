@@ -1881,13 +1881,13 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
                         game.Players.LocalPlayer.Character["Super Dragon Fist"].Activator.Forward:Destroy()
                         end
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "InoriaB";
+                        Title = "Asura S";
                         Text = "Move Equiped\nPress On a Player";
                         Duration = 5;
                         })    
                     else
                         game.StarterGui:SetCore("SendNotification", {
-                        Title = "InoriaB";
+                        Title = "Asura S";
                         Text = "Buy Super Dragon Fist";
                         Duration = 5;
                         })
@@ -1916,13 +1916,13 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
                         game.Players.LocalPlayer.Character["Super Rush"].Activator.Forward:Destroy()
                         end
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "InoriaB";
+                        Title = "Asura S";
                         Text = "Move Equiped\nPress On a Player";
                         Duration = 5;
                         })    
                     else
                         game.StarterGui:SetCore("SendNotification", {
-                        Title = "InoriaB";
+                        Title = "Asura S";
                         Text = "Buy Super Rush";
                         Duration = 5;
                         })
@@ -1951,13 +1951,13 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
                         game.Players.LocalPlayer.Character["Kaioken Assault"].Activator.Forward:Destroy()
                         end
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "InoriaB";
+                        Title = "Asura S";
                         Text = "Move Equiped\nPress On a Player";
                         Duration = 5;
                         })    
                     else
                         game.StarterGui:SetCore("SendNotification", {
-                        Title = "InoriaB";
+                        Title = "Asura S";
                         Text = "Buy Kaioken Assault";
                         Duration = 5;
                         })
@@ -1986,13 +1986,13 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
                         game.Players.LocalPlayer.Character["Wrathful Charge"].Activator.Forward:Destroy()
                         end
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "InoriaB";
+                        Title = "Asura S";
                         Text = "Move Equiped\nPress On a Player";
                         Duration = 5;
                         })    
                     else
                         game.StarterGui:SetCore("SendNotification", {
-                        Title = "InoriaB";
+                        Title = "Asura S";
                         Text = "Buy Wrathful Charge";
                         Duration = 5;
                         })
@@ -2047,7 +2047,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
     TeleportMain:addButton("Lookout", function()
         if game.PlaceId ~= 536102540 then
             game.StarterGui:SetCore("SendNotification", {
-                Title = "InoriaB";
+                Title = "Asura S";
                 Text = "Not On Earth";
                 Duration = 2;
                 })
@@ -2128,7 +2128,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
         }
     }
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/ESP%20Library"))()
+    loadstring(game:HttpGet("https://github.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/blob/main/ESP%20Library"))()
 
     ESPS:addToggle("Enable ESP", nil, function(bool)
         shared.Visuals.Enabled = bool
@@ -2178,7 +2178,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
     end)
 
     settings:addButton("Destroy UI", function()
-        if game.CoreGui:FindFirstChild("InoriaB") then
+        if game.CoreGui:FindFirstChild("Asura S") then
             game:GetService("CoreGui").InoriaB:Destroy();
             game.Workspace.part0000000:Destroy();
             game.Workspace.part00000002:Destroy();
