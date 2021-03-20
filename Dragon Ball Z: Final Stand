@@ -23,7 +23,7 @@
 
 
     -- init
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AsuraShadow/Robl1/main/UI%20Lib?token=ATKDU62JDEHJZ46LGJYKB23AKXOHE"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/UI%20Lib"))()
     local lib = library.new("InoriaB")
     local Slow
     local EGod
@@ -2128,7 +2128,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Asura
         }
     }
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AsuraShadow/Robl1/main/ESP%20Library?token=ATKDU63KSNJHKVPTZD5UEUTAKXOIW"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AsuraShadow/Robl1cxzcxvjo345ru089rxujcvoiyu-tr983t4/main/ESP%20Library"))()
 
     ESPS:addToggle("Enable ESP", nil, function(bool)
         shared.Visuals.Enabled = bool
